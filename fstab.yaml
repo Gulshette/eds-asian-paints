@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p110016-e1074395.adobeaemcloud.com/bin/franklin.delivery/gulshette/eds-asian-paints/main"
+    url: "https://author-p110016-e1074395.adobeaemcloud.com/bin/franklin.delivery/Gulshette/eds-asian-paints/main"
     type: "markup"
     suffix: ".html"
