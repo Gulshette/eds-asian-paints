@@ -218,25 +218,30 @@
   "id": "text1",
   "fields": [
     {
-      "component": "richtext",
-      "name": "text",
-      "value": "",
-      "label": "Text",
-      "valueType": "string"
+      "component": "tab",
+      "label": "Properties",
+      "name": "properties"
     },
     {
-      "component": "checkbox",
+      "component": "richtext",
+      "name": "text",
+      "label": "Text",
+      "valueType": "string",
+      "description": "Rich text content"
+    },
+    {
+      "component": "boolean",
       "valueType": "boolean",
-      "name": "footercontentcheck",
-      "label": "Enable footer text content",
-      "value": "true"
+      "name": "footerContentCheck",
+      "label": "Enable Tooter Text Content",
+      "description": "check this to read footer content text from content fragment"
     },
     {
       "component": "text",
       "valueType": "string",
       "name": "blogId",
       "label": "Configure JumpLink ID",
-      "value": ""
+      "description": "Configure jumplink ID for targetting to section"
     }
   ]
 }
