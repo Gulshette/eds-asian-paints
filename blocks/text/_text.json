@@ -43,6 +43,20 @@
           "valueType": "string"
         }
       ]
+    },
+    {
+      "component": "checkbox",
+      "valueType": "boolean",
+      "name": "footercontentcheck",
+      "label": "Enable footer text content",
+      "value": "true"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "blogId",
+      "label": "Configure JumpLink ID",
+      "value": ""
     }
   ],
   "filters": [
